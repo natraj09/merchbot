@@ -1,0 +1,27 @@
+{
+  "name": "merchbot",
+  "version": "1.0.0",
+  "description": "Merch Slack Bot Application",
+  "main": "index.js",
+  "scripts": {
+    "test": "merchbot"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/natraj09/merchbot.git"
+  },
+  "keywords": [
+    "slack"
+  ],
+  "author": "Natraj Srinivasan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/natraj09/merchbot/issues"
+  },
+  "homepage": "https://github.com/natraj09/merchbot#readme",
+  "dependencies": {
+    "express": "^4.13.3",
+    "heroku": "^0.1.3",
+    "slack-node": "^0.1.7"
+  }
+}
