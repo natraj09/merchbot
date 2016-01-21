@@ -17,7 +17,7 @@ controller.spawn({
 
 
 
-controller.hears('sim (.*)',['ambient'],function(bot,message) {
+controller.hears('sim (.*)',['ambient,direct_message,direct_mention,mention'],function(bot,message) {
   var itemId = message.match[1]; 
   if (!isNaN(itemId)) {
     return similar(bot,message,itemId)
